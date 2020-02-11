@@ -182,6 +182,8 @@ Debe contener lo siguiente:
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
   Imagenes:
+  <img src = "imagenes\WhatsApp Image 2020-02-11 at 12.35.29 PM.jpeg">
+  <img src = "imagenes\TuringSite.com.jpg">
   <img src = "imagenes\TuringSite.com (1).jpg">
 
 #### Visualmente (HTML y CSS)
