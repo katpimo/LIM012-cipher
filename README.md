@@ -181,6 +181,8 @@ Debe contener lo siguiente:
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
+  Imagenes:
+  <img src = "imagenes\TuringSite.com (1).jpg">
 
 #### Visualmente (HTML y CSS)
 
