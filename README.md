@@ -167,24 +167,33 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * Un título con el nombre de tu proyecto.
+<br>
   Turingsite.com
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+<br>
   Utilizo el contexto del personaje Alan Tunring, inventor de la maquina que decifraba mensajes Nazis en la segunda guerra mundial. Los usuarios podran ingresar un texto y este puede ser codificado o decodificado con un solo click.
 * La imagen final de tu proyecto.
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+    <br>
     Personas (usuarios) que quieran cifrar o decifrar un mensaje.
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
+    <br>
      Entrar a una pagina web donde se les facilite el cifrado o decifrado de mensajes con un solo click.
   3. Luego colocarás la foto de tu primer prototipo en papel.
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   5. Imagen del prototipo final.
+  <br>
   Imagenes:
+  <br>
   <img src = "imagenes\WhatsApp Image 2020-02-11 at 12.35.29 PM.jpeg">
+  <br>
   <img src = "imagenes\TuringSite.com.jpg">
+  <br>
   <img src = "imagenes\TuringSite.com (1).jpg">
+  <br>
 
 #### Visualmente (HTML y CSS)
 
