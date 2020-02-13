@@ -7,15 +7,24 @@
   </head>
   <body>
     <header>Bienvenido a <b>Turingsite.com</b></header>
-    <img class= "foto1" src="C:\Users\Estudiante\Documents\javascript\LIM012-cipher\imagenes\animacionAlanTuring.png"
-  alt="animacionAlanTuring">
     <main>
-      <div class="caja">
-        <h1> Crea un mensaje secreto</h1>
+      <div id="pantalla1">
+        <img class= "foto1" src="./imagenes/animacionAlanTuring.png" alt="imagen1">
+        <div class="caja">
+          <h1> Crea un mensaje secreto</h1>
+          <button class="boton1" id="btn" type="button" value="Empezar">Empezar</button>
+        </div>
       </div>
-      <button class="boton1" type="button" value="Empezar">Empezar</button>
+      <div id="pantalla2" class="ocultar">
+          <p>Ingresa # de desplazamiento</p>
+          <input class="desplazamiento" id="dplz" type="number" >
+          <textarea name="texto" rows="10" cols="40">Ingrese su texto</textarea>
+          <textarea name="resultado" rows="10" cols="40">Resultado</textarea>
+          <button class="codificar1" id="cdf" type="button" value="codificar">Codificar</button>
+          <button class="decoficicar1" id="dcf" type="button" value="decodificar">Decodificar</button>
+          <button class="limpiar1" id="lmp" type="button" value="limpiar">Limpiar</button>
+       </div>
     </main>
-    <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

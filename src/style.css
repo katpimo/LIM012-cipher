@@ -8,7 +8,7 @@ body{
 header{
     color: black;
     font-family: cursive;
-    font-size: 400%;
+    font-size: 40px;
     font-style: italic;
     text-indent: 40px;
 }
@@ -19,11 +19,10 @@ img{
 }
 h1{
     border-style: dashed;
-    font-size: 200%;
+    font-size: 20px;
     font-style: italic;
     font-family: cursive;
     color: black;
-    width: 100px;
 }
 .boton1 {
     background-color: rgb(183, 189, 183);
@@ -43,8 +42,8 @@ h1{
 }
 .caja{
     position: relative;
-    top: 
-    bottom:
-    right:
-    left: 100px;
+    top: 200px;
+}
+.ocultar {
+    display: none;
 }
