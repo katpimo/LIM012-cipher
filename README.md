@@ -188,11 +188,11 @@ Debe contener lo siguiente:
   <br>
   Imagenes:
   <br>
-  <img src = "imagenes\WhatsApp Image 2020-02-11 at 12.35.29 PM.jpeg">
+  <img src = "src\imagenes\WhatsApp Image 2020-02-11 at 12.35.29 PM.jpeg" >
   <br>
-  <img src = "imagenes\TuringSite.com.jpg">
+  <img src = "src\imagenes\TuringSite.com.jpg">
   <br>
-  <img src = "imagenes\TuringSite.com (1).jpg">
+  <img src = "src\imagenes\TuringSite.com (1).jpg">
   <br>
 
 #### Visualmente (HTML y CSS)
