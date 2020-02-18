@@ -46,3 +46,6 @@ h1{
 .ocultar {
     display: none;
 }
+.desplazamiento {
+    display: inline-block;
+}
