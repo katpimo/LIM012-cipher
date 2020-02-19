@@ -4,22 +4,27 @@
     <meta charset="utf-8">
     <title>Turingsite.com</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>Bienvenido a <b>Turingsite.com</b></header>
     <main>
-      <div id="pantalla1">
-        <img class= "foto1" src="./imagenes/animacionAlanTuring.png" alt="imagen1">
+      <div class="contenedor" id="pantalla1">
+        <div class="imagen">
+          <img class= "foto1" src="./imagenes/animacionAlanTuring.png" alt="imagen1">
+        </div>
         <div class="caja">
           <h1> Crea un mensaje secreto</h1>
-          <button class="boton1" id="btn" type="button" value="Empezar">Empezar</button>
         </div>
+          <button class="boton1" id="btn" type="button" value="Empezar">Empezar</button>
       </div>
       <div id="pantalla2" class="ocultar">
           <p>Ingresa # de desplazamiento</p>
           <input class="desplazamiento" id="dplz" type="number" ><br>
-          <textarea id="ingresa" name="texto" rows="10" cols="40" placeholder="Ingrese su texto"></textarea>
-          <textarea id="salida" name="resultado" rows="10" cols="40" placeholder="Resultado"></textarea>
+          <div class="cajas">
+            <textarea id="ingresa" name="texto" rows="10" cols="40" placeholder="Ingrese su texto"></textarea>
+            <textarea id="salida1" name="resultado" rows="10" cols="40" placeholder="Resultado"></textarea>
+          </div>  
           <button class="codificar1" id="cdf" type="button" value="codificar">Codificar</button>
           <button class="decoficicar1" id="dcf" type="button" value="decodificar">Decodificar</button>
           <button class="limpiar1" id="lmp" type="button" value="limpiar">Limpiar</button>
