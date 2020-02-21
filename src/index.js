@@ -17,8 +17,12 @@ import cipher from './cipher.js';
         cdf1.addEventListener('click', function (){
             let entrada = document.getElementById("ingresa").value;
             let paso = parseInt(document.getElementById("dplz").value);
-            document.getElementById('salida1').value= cipher.encode(paso,entrada);
-           
+            const resultado = cipher.encode(paso,entrada);
+            if (resultado === "TypeError" ){
+            document.getElementById('salida1').value= "ERROR";
+            } else {
+            document.getElementById('salida1').value=resultado;  
+        } 
         });
 
 
@@ -27,11 +31,15 @@ import cipher from './cipher.js';
         dcf2.addEventListener('click', function (){
             let entrada = document.getElementById("ingresa").value;
             let paso = parseInt(document.getElementById("dplz").value);
-            
-            document.getElementById('salida1').value=cipher.decode(paso,entrada);
+            const resultado = cipher.decode(paso,entrada);
+            if(resultado === "TypeError"){
+            document.getElementById('salida1').value= "ERROR"
+            } else {
+            document.getElementById('salida1').value=resultado;
+            }
         });
 
-    //*funcionalidad a mi boton de limpiar
+    //funcionalidad a mi boton de limpiar
     const limpiar = document.getElementById('lmp');
         limpiar.addEventListener('click', function (){
             LimpiarBox();
@@ -42,5 +50,5 @@ import cipher from './cipher.js';
     function LimpiarBox () {
         document.getElementById("dplz").value='0';
         document.getElementById("ingresa").value='';
-        document.getElementById("salida1").innerHTML='';
+        document.getElementById("salida1").value='';
     }
