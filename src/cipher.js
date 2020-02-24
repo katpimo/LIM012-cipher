@@ -6,7 +6,7 @@ const cipher = {
     let cifrado; //codigo ascii resultante luego de sumarle paso
     //por cada letra de la entrada
     try {
-        if((paso===null && entrada===[]) || (paso===0) || (paso===0 && entrada===0) || (paso==="" && entrada==="") ) throw new TypeError;
+        if((paso===0) || (paso===" ") || (entrada===null) || (entrada==="0") || (entrada===" ") ) throw new TypeError;
     } 
     catch (error) {
         return error();
@@ -34,7 +34,7 @@ const cipher = {
     let cifrado; //codigo ascii resultante luego de sumarle paso
     //por cada letra de la entrada  
     try {
-        if((paso===null && entrada===[]) || (paso===0) || (paso===0 && entrada===0) || (paso==="" && entrada==="") ) throw new TypeError;
+        if((paso===0) || (paso===" ") || (entrada===null) || (entrada==="0") || (entrada===" ") ) throw new TypeError;
     } 
     catch (error) {
         return error();

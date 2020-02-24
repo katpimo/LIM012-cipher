@@ -2,7 +2,7 @@ import cipher from './cipher.js';
 
 
 
-    //funcion de boton Limpiar
+    //funcion de boton Empezar
     const btn1 = document.getElementById('btn');
         btn1.addEventListener('click', function() {
             const pantalla1 = document.getElementById("pantalla1")
@@ -46,7 +46,6 @@ import cipher from './cipher.js';
          });
 
 
-    //funcionalidad boton limpiar
     function LimpiarBox () {
         document.getElementById("dplz").value='0';
         document.getElementById("ingresa").value='';
