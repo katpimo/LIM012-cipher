@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+header {
+ outline: 1px solid blue;
+}
+
+main {
+ outline: 1px solid yellow;
+}
+
+footer {
+ outline: 1px solid red;
+}
+
+#pantalla1 {
+    outline: 1px solid pink;
+}
+
+img {
+    outline: 1px solid green;
+    margin-left: 20%;
+    width: 50%;
+    height: 50%;
+}

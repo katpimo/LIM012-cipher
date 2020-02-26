@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Turingsite.com</title>
+    <!--<link rel="stylesheet" href="style2.css">*/-->
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
   </head>
@@ -10,17 +11,19 @@
     <header>Bienvenido a <b>Turingsite.com</b></header>
     <main>
       <div class="contenedor" id="pantalla1">
-        <div class="imagen">
+        <div class="image">
           <img class= "foto1" src="./imagenes/animacionAlanTuring.png" alt="imagen1">
         </div>
-        <div class="caja">
+        <div class="imputMessage">
           <h1> Crea un mensaje secreto</h1>
-          <button class="boton1" id="btn" type="button" value="Empezar">Empezar</button>
+        </div>
+        <div class="boton1">
+          <button  id="btn" type="button" value="Empezar">Empezar</button>
         </div>  
       </div>
       <div id="pantalla2" class="ocultar contenedor1">
           <div class="p1">
-            <p>Ingresa # de desplazamiento</p>
+            <h2>Ingresa # de desplazamiento</h2>
           </div>
           <div class="number1">
           <input class="desplazamiento" id="dplz" type="number" >
@@ -34,6 +37,9 @@
           <button class="limpiar1" id="lmp" type="button" value="limpiar">Limpiar</button>
        </div>       
     </main>
+    <footer>
+      <p>© Kat PiMo 2020</p>
+    </footer>
     <script src="index.js" type="module"></script>
   </body>
 </html>

@@ -1,4 +1,10 @@
+*{
+    margin: 0;
+}
+
+
 body{
+    /*fondo de pantalla*/
     background-image: url(https://i.pinimg.com/originals/7c/f9/28/7cf92868b50c428c103210ae3391be02.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -11,52 +17,61 @@ header{
     font-size: 60px;
     font-style: italic;
     text-indent: 40px;
-}
-img{
-    width: 480px;
-    float: left;
-    position: relative;
+    text-shadow: 0px 0px 10px gba(148,120,148,1);
+    /*poner el shadow*/
 }
 
 .contenedor{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-gap: 30px;
+    grid-template-columns: 46% 44%;;
+    grid-template-rows: 1fr 43%;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 25px;
 }
-
-h1{
+.image{
+    width: 475px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin: 0;
+}
+.foto1{
+    width: 99%;
+    height: 101%;
+    margin: 0;
+    text-shadow: 0px 0px 10px gba(148,120,148,1);
+}
+.imputMessage{
     border-style: dashed;
     font-size: 20px;
-    font-style: italic;
     font-family: cursive;
     text-align: center;
-    color: black;
-    border-radius: 10px;
+    color: rgb(109, 105, 105);
+    border-radius: 54px;
+    border-width: 7px;
+    margin: 5%;
+    align-self: end;
+    justify-self: start;
+    width: 428px;
+    height: 122px;
+    text-shadow: 0px 0px 10px gba(148,120,148,1);
 }
-.boton1 {
-    background-color: rgb(183, 189, 183);
-    border: none;
+h1{
     color: black;
-    padding: 10px 10px;
+    font-family: 'pacifico',cursive;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow: 3px 3px 3px #000000;
-    box-shadow: 3px 5px 7px #000000;
-    border-radius: 5px;
-    cursor: pointer;
+    text-shadow: 0px 0px 10px gba(148,120,148,1);
 }
 #btn {
-    place-self: center;
-}
-.caja{
-    position: relative;
-    top: 200px;
-    display: flex;
-    flex-direction: column;
+    background-color: lightgray;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Pacifico', cursive;
+    border: 4px solid;
+    font-size: 15px;
+    width: 226px;
+    padding: 6px;
+    font-size: 26px;
 }
 .ocultar {
     display: none !important;
@@ -64,50 +79,56 @@ h1{
 .contenedor1{
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: 1fr;
-    /*justify-content: space-around;	
-    /*grid-template-rows: 1fr 1fr 1fr;*/
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 18% 40% 14% 13%;
+    justify-items: center;
+    align-items: center;
+    
+    
 }
 .p1{
     font-family:'pacifico', cursive;
-    justify-content: center;
-    justify-self: center;
-    font-size: 25px;
-    grid-gap: 10px;
+    font-size: 23px;
+    
 }
 .desplazamiento {
-
-    align-content: center;
-    align-self: center;
-    align-items: center;
     border-radius: 10px;
-    background-color: #bdbdbd;
+    background-color: #E7E5E2;    
+}
+.number1{
+    justify-self: self-start;
 }
 .cajas{
-    display: flex;
-    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    justify-content: stretch;
+    align-content: stretch;
+
 }
 #ingresa {
-    background-color: #CFC7BA;
-    border-radius: 15px;   
+    background-color: #E7E5E2;
+    border-radius: 15px;  /*antes del grid, probar.ver si funciona con el margin y padding*/
+    margin: 22px;
+    width: 530px;
+    height: 195px;
 }
 #salida1 {
-    background-color: #CFC7BA;
-    border-radius: 15px;     
+    background-color: #E7E5E2;
+    border-radius: 15px;  
+    margin: 22px;
+    width: 530px;
+    height: 195px;
 }
 #cdf {
     background-color: #E4C99E;
     border-radius: 10px;
     color: black;
     font-family: 'Pacifico', cursive;
-    border: 2px solid;
     border: 4px solid;
     font-size: 15px;
-    /*align-items: center;
-    align-content: center;
-    align-self: center;*/
-    justify-content: center;
-    width: 141px;
+    width: 226px;
+    padding: 6px;
+    justify-self: end;
     
 }
 #dcf {
@@ -115,13 +136,11 @@ h1{
     border-radius: 10px;
     color: black;
     font-family: 'Pacifico', cursive;
-    border: 2px solid;
     border: 4px solid;
     font-size: 15px;
-    /*align-items: center;
-    align-content: center;
-    align-self: center;*/
-    width: 141px;
+    width: 226px;
+    padding: 6px;
+    justify-self: start;
 }
 #lmp {
     background-color: #E4C99E;
@@ -130,8 +149,24 @@ h1{
     font-family: 'Pacifico', cursive;
     border: 4px solid;
     font-size: 15px;
-   /* align-items: center;
-    align-content: center;
-    align-self: center;*/
-    width: 141px;
+    width: 226px;
+    padding: 6px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: center;
+    align-self: start;
+    margin:0;
+}
+footer {
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(61, 57, 57);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 0;
+
 }
