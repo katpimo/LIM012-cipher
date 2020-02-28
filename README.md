@@ -169,7 +169,9 @@ Estos puntos los presentarás en el `README.md`.
 Mi proyecto es una pagina web donde puedes cifrar o descifrar textos para usos personales, acedemicos, laborales, etc. Cuenta con las opciones de "Codificar" y "Decodificar" para curbrir con esta necesidad.La pagina dara como resultado el texto cifrado o descifrado correctamente.
 <br>
 ---IMAGEN DE MI PROYECTO FINAL---
-<img src="\image.png" alt="imagen_pf1">
+<img src="..\src\imagenes\image.png" alt="imagen_pf1">
+<img src="imagenes\image (1).png" alt="imagen_pf2">
+
 <br>
 INVESTIGACION UX:
 <br>
