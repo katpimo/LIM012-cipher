@@ -171,6 +171,8 @@ Mi proyecto es una pagina web donde puedes cifrar o descifrar textos para usos p
 ---IMAGEN DE MI PROYECTO FINAL---
 <img class= "proyectoFinal1" src=".\src\imagenes\image.png" alt="imagen_pf1">
 <br>
+<img class= "proyectoFinal2" src=".\src\imagenes\image(1).png" alt="imagen_pf2">
+<br>
 INVESTIGACION UX:
 <br>
 Al realizar la investigacion de quienes podian usar este metodo de cifrado. Encontre a personas entre 17 a 33 a;os, a quienes les parece interesante poder tener la opcion de cifrar un mensaje o palabra. Segun la percepcion de ellos este metodo puede ser utilizado para los siguientes aspectos: academicos, laborales, personales y sociales. 
@@ -187,13 +189,20 @@ Esta pagina web satisface las necesidades antes mencionadas, en los diferentes a
 <br>
 PRIMER PROTOTIPO EN PAPEL
 <br>
---------foto-----------
+--------foto--
+<img class= "bosquejo1" src=".\src\imagenes\IMG_20200228_085528.jpg" alt="imagen_pf3">
+<br>
+<img class= "bosquejo2" src=".\src\imagenes\IMG_20200228_082021.jpg" alt="imagen_pf3">
 <br>
 FEEADBACK:
 <br>
 Como se puede observar en la imagen, estaba extendiendo mucho el proceso, no habia puesto adecuadamente los botones y no era tan efectivo. Gracias a esto, pude re-ordenar mis ideas y mejorar el flujo de mi proyecto.
 <br>
 ---imagen del prototipo final 
+<img class= "prototipado1" src=".\src\imagenes\TuringSite.com.jpg" alt="imagen_pf3">
+<br>
+<img class= "prototipado2" src=".\src\imagenes\TuringSite.com (1).jpg" alt="imagen_pf3">
+<br>
 
 
 
