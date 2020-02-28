@@ -171,7 +171,7 @@ Mi proyecto es una pagina web donde puedes cifrar o descifrar textos para usos p
 <br>
 <img class= "proyectoFinal1" src=".\src\imagenes\image.png" alt="imagen_pf1">
 <br>
-<img class= "proyectoFinal2" src=".\src\imagenes\image(1).png" alt="imagen_pf2">
+<img class= "proyectoFinal2" src=".\src\imagenes\image (1).png" alt="imagen_pf2">
 <br>
 <br>
 <br>
@@ -181,12 +181,18 @@ INVESTIGACION UX:
 Al realizar la investigacion de quienes podian usar este metodo de cifrado. Encontre a personas entre 17 a 33 a;os, a quienes les parece interesante poder tener la opcion de cifrar un mensaje o palabra. Segun la percepcion de ellos este metodo puede ser utilizado para los siguientes aspectos: academicos, laborales, personales y sociales. 
 <br>
 Los casos donde pueden ser utilizados son los siguientes:
+<br>
 Academico: Cuando tienes una tarea y quieres que nadie mas se copie.
+<br>
 Laboral: Cuando tienes un proyecto importante y no quieres que se divulgue.
+<br>
 Personal: Cuando se quiere escribir un diario personal y/o para contraseñas.
+<br>
 Social: Cuando quieres comentar de algo y no quieres que nadie se entere.
 <br>
+<br>
 Luego de escuchar estas observaciones, se busco mas acerca del cifrado. Lo que se encontro fue uno de los acontecimientos de la "Segunda Guerra Mundial", donde Alan turing (Padre de la ciencia de la computacion) pudo descifrar codigos nazis con su maquina que e'l mismo creo, llamada "Enigma". Por ello, utilice este acontecimiento como tematica para la pagina web.
+<br>
 <br>
 Esta pagina web satisface las necesidades antes mencionadas, en los diferentes ambitos. Pudiendo garantizar su efectividad, con un proceso de uso facil e inmediato.
 <br>
