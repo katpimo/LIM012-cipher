@@ -163,37 +163,39 @@ Estos puntos los presentarás en el `README.md`.
 #### General
 
 ##### `README.md`
-
-Debe contener lo siguiente:
-
-* Un título con el nombre de tu proyecto.
 <br>
-  Turingsite.com
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+<h1>Cifrado Cesar - Turingsite.com<h1>
 <br>
-  Utilizo el contexto del personaje Alan Tunring, inventor de la maquina que decifraba mensajes Nazis en la segunda guerra mundial. Los usuarios podran ingresar un texto y este puede ser codificado o decodificado con un solo click.
-* La imagen final de tu proyecto.
-* Investigación UX:
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
-    producto.
-    <br>
-    Personas (usuarios) que quieran cifrar o decifrar un mensaje.
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
-    usuarios.
-    <br>
-     Entrar a una pagina web donde se les facilite el cifrado o decifrado de mensajes con un solo click.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
-  <br>
-  Imagenes:
-  <br>
-  <img src = "src\imagenes\WhatsApp Image 2020-02-11 at 12.35.29 PM.jpeg" >
-  <br>
-  <img src = "src\imagenes\TuringSite.com.jpg">
-  <br>
-  <img src = "src\imagenes\TuringSite.com (1).jpg">
-  <br>
+Mi proyecto es una pagina web donde puedes cifrar o descifrar textos para usos personales, acedemicos, laborales, etc. Cuenta con las opciones de "Codificar" y "Decodificar" para curbrir con esta necesidad.La pagina dara como resultado el texto cifrado o descifrado correctamente.
+<br>
+---IMAGEN DE MI PROYECTO FINAL---
+<img src="\image.png" alt="imagen_pf1">
+<br>
+INVESTIGACION UX:
+<br>
+Al realizar la investigacion de quienes podian usar este metodo de cifrado. Encontre a personas entre 17 a 33 a;os, a quienes les parece interesante poder tener la opcion de cifrar un mensaje o palabra. Segun la percepcion de ellos este metodo puede ser utilizado para los siguientes aspectos: academicos, laborales, personales y sociales. 
+<br>
+Los casos donde pueden ser utilizados son los siguientes:
+Academico: Cuando tienes una tarea y quieres que nadie mas se copie.
+Laboral: Cuando tienes un proyecto importante y no quieres que se divulgue.
+Personal: Cuando se quiere escribir un diario personal y/o para contraseñas.
+Social: Cuando quieres comentar de algo y no quieres que nadie se entere.
+<br>
+Luego de escuchar estas observaciones, se busco mas acerca del cifrado. Lo que se encontro fue uno de los acontecimientos de la "Segunda Guerra Mundial", donde Alan turing (Padre de la ciencia de la computacion) pudo descifrar codigos nazis con su maquina que e'l mismo creo, llamada "Enigma". Por ello, utilice este acontecimiento como tematica para la pagina web.
+<br>
+Esta pagina web satisface las necesidades antes mencionadas, en los diferentes ambitos. Pudiendo garantizar su efectividad, con un proceso de uso facil e inmediato.
+<br>
+PRIMER PROTOTIPO EN PAPEL
+<br>
+--------foto-----------
+<br>
+FEEADBACK:
+<br>
+Como se puede observar en la imagen, estaba extendiendo mucho el proceso, no habia puesto adecuadamente los botones y no era tan efectivo. Gracias a esto, pude re-ordenar mis ideas y mejorar el flujo de mi proyecto.
+<br>
+---imagen del prototipo final 
+
+
 
 #### Visualmente (HTML y CSS)
 

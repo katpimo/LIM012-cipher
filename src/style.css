@@ -17,7 +17,7 @@ header{
     font-size: 60px;
     font-style: italic;
     text-indent: 40px;
-    text-shadow: 0px 0px 10px gba(148,120,148,1);
+   
     /*poner el shadow*/
 }
 
@@ -39,7 +39,7 @@ header{
     width: 99%;
     height: 101%;
     margin: 0;
-    text-shadow: 0px 0px 10px gba(148,120,148,1);
+
 }
 .imputMessage{
     border-style: dashed;
@@ -54,13 +54,15 @@ header{
     justify-self: start;
     width: 428px;
     height: 122px;
-    text-shadow: 0px 0px 10px gba(148,120,148,1);
+
 }
 h1{
     color: black;
     font-family: 'pacifico',cursive;
     text-align: center;
-    text-shadow: 0px 0px 10px gba(148,120,148,1);
+    /*text-shadow: 1px 1px 25px rgb(218, 206, 206);*/
+
+
 }
 #btn {
     background-color: lightgray;
@@ -72,6 +74,11 @@ h1{
     width: 226px;
     padding: 6px;
     font-size: 26px;
+    
+}
+.boton1:hover{
+        transform: scale(1.1);
+        transition: 0.5;  
 }
 .ocultar {
     display: none !important;
@@ -91,7 +98,11 @@ h1{
     font-size: 23px;
     
 }
-.desplazamiento {
+.desplazamiento:hover{
+    transform: scale(1.1);
+    transition: 0.5; 
+}
+#dplz{
     border-radius: 10px;
     background-color: #E7E5E2;    
 }
@@ -112,6 +123,11 @@ h1{
     width: 530px;
     height: 195px;
 }
+.ingresa_class:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+    
+}
 #salida1 {
     background-color: #E7E5E2;
     border-radius: 15px;  
@@ -119,17 +135,26 @@ h1{
     width: 530px;
     height: 195px;
 }
+.salida1_class:hover{
+    transform: scale(1.1);
+    transition: 0.5;
+    
+}
 #cdf {
     background-color: #E4C99E;
     border-radius: 10px;
     color: black;
     font-family: 'Pacifico', cursive;
     border: 4px solid;
-    font-size: 15px;
+    font-size: 20px;
     width: 226px;
     padding: 6px;
     justify-self: end;
     
+}
+.codificar1:hover{
+    transform: scale(1.1);
+    transition: 0.5; 
 }
 #dcf {
     background-color:  #E4C99E;
@@ -137,10 +162,14 @@ h1{
     color: black;
     font-family: 'Pacifico', cursive;
     border: 4px solid;
-    font-size: 15px;
+    font-size: 20px;
     width: 226px;
     padding: 6px;
     justify-self: start;
+}
+.decodificar1:hover{
+    transform: scale(1.1);
+    transition: 0.5; 
 }
 #lmp {
     background-color: #E4C99E;
@@ -148,7 +177,7 @@ h1{
     color: black;
     font-family: 'Pacifico', cursive;
     border: 4px solid;
-    font-size: 15px;
+    font-size: 20px;
     width: 226px;
     padding: 6px;
     grid-column-start: 2;
@@ -156,6 +185,10 @@ h1{
     justify-self: center;
     align-self: start;
     margin:0;
+}
+.limpiar1:hover{
+    transform: scale(1.1);
+    transition: 0.5; 
 }
 footer {
     text-align: center;
