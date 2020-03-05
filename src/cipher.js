@@ -1,8 +1,8 @@
 const cipher = {
     encode: (paso, entrada) => {
-    if ((paso === 0) || (paso === " ") || (entrada===null) || (entrada==="0") || (entrada===" ")) {
+    if ((paso === 0) || (paso === "") || (entrada===null) || (entrada==="0") || (entrada==="")) {
         throw new TypeError(TypeError);
-    } else {
+        } else {
             let salida='';
             let sinCifrado; //donde se guarda el codigo ascii de una letra
             let cifrado; //codigo ascii resultante luego de sumarle paso por cada letra de la entrada
@@ -22,8 +22,8 @@ const cipher = {
         }
     },
     decode: (paso, entrada) => {
-    if ((paso === 0) || (paso === " ") || (entrada===null) || (entrada==="0") || (entrada===" ")) {
-        throw new TypeError();
+    if ((paso === 0) || (paso === "") || (entrada===null) || (entrada==="0") || (entrada==="") ||) {
+        throw new TypeError(TypeError);
     } else {
             let salida1 = '';
             let sinCifrado; //donde se guarda el codigo ascii de una letra
@@ -42,7 +42,7 @@ const cipher = {
             }
         return salida1;
         }
-    },
-}
+    }
+};
 
 export default cipher;

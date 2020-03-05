@@ -1,10 +1,8 @@
 import cipher from './cipher.js';
 
-
-
     //funcion de boton Empezar
     const btn1 = document.getElementById('btn');
-        btn1.addEventListener('click', function() {
+        btn1.addEventListener('click', () => {
             const pantalla1 = document.getElementById("pantalla1")
                 pantalla1.classList.add("ocultar")
                 document.getElementById("dplz").value='0'; // valor por defecto al desplazamiento
@@ -14,9 +12,10 @@ import cipher from './cipher.js';
 
     //Funcionalidad para el boton de Codificar
     const cdf1 = document.getElementById('cdf');
-        cdf1.addEventListener('click', function (){
+        cdf1.addEventListener('click', () => {
             let entrada = document.getElementById("ingresa").value;
             let paso = parseInt(document.getElementById("dplz").value);
+            
             const resultado = cipher.encode(paso,entrada);
             if (resultado === "TypeError" ){
             document.getElementById('salida1').value= "ERROR";
@@ -28,7 +27,7 @@ import cipher from './cipher.js';
 
     //Funcionalidad para el boton de Decodificar
     const dcf2 = document.getElementById('dcf');
-        dcf2.addEventListener('click', function (){
+        dcf2.addEventListener('click', () => {
             let entrada = document.getElementById("ingresa").value;
             let paso = parseInt(document.getElementById("dplz").value);
             const resultado = cipher.decode(paso,entrada);
@@ -41,13 +40,8 @@ import cipher from './cipher.js';
 
     //funcionalidad a mi boton de limpiar
     const limpiar = document.getElementById('lmp');
-        limpiar.addEventListener('click', function (){
-            LimpiarBox();
+        limpiar.addEventListener('click', () => {
+            document.getElementById("dplz").value='0';
+            document.getElementById("ingresa").value='';
+            document.getElementById("salida1").value='';
          });
-
-
-    function LimpiarBox () {
-        document.getElementById("dplz").value='0';
-        document.getElementById("ingresa").value='';
-        document.getElementById("salida1").value='';
-    }
